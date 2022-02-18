@@ -1,0 +1,12 @@
+Stack follows LIFO(Last in First out), just like a pile of books
+
+It has basic functions like push, pop, peek, size
+
+
+Features of stacks:
+
+-- Dynamic data structures
+-- Do not have a fixed size
+-- Do not consume a fixed amount of memory
+-- Size of stack changes with each  and  operation. Each  and  operation 
+   increases and decreases the size of the stack by , respectively. 
