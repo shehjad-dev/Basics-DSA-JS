@@ -4,7 +4,7 @@ The project focuses on creating implementing some data structures using Javascri
 
 ## Description
 
-Every Folder is named after a data structure & has 2 files-
+Every Folder is named after a data structure & has 3 files-
 
 - ds.js
 - ds.text
