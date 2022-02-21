@@ -1,0 +1,13 @@
+A set is a data structure that can store any number of unique values in any order you so wish. Set’s are different from arrays in the sense that they only allow non-repeated, unique values within them.
+
+List Of Operations Available:
+
+Add: Insert an element in the set if present not.
+Delete: Remove an element from the set.
+Has : Return true if the an element is present or else return false.
+Size: Return Size of the Set.
+isEmpty : Check if the set is empty if empty return true else false.
+Union: Return new Set which contains all the elements from two sets.
+Intersection: Return new Set which contains the intersecting element from two sets.
+Difference: Return new Set only containing the elements which are not present in other sets.
+isSubset: Return true if all elements are present in the given otherSet.
