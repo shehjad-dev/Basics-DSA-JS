@@ -11,7 +11,7 @@ Every Folder is named after a data structure & has 3 files-
 - dsExample.js
 
 The ds.js file has the implementation of the particular data structure in javascript. \
-The ds.txt file has certainf details about the data structure \
+The ds.txt file has certain details about the data structure \
 The dsExample.js has a problem example solved using the particular Data Structure
 
 ## To Run & Check
