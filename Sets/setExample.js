@@ -23,6 +23,8 @@ function isIsogram(str) {
 */
 
 // But rather we can use mySet to simplify the function as below
+
+//implentation of set ds
 class mySet {
   constructor(input = []) {
     this.newArr = [];
@@ -118,6 +120,7 @@ class mySet {
   };
 }
 
+//function to find if a string is an isogram or not
 function isIsogram(str) {
   const rag1 = new mySet(str.toLowerCase());
   return rag1.size() === str.length;
