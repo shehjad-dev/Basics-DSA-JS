@@ -1,6 +1,17 @@
 class mySet {
-  constructor() {
+  constructor(input = []) {
+    this.newArr = [];
     this.collection = [];
+    if (typeof input === 'string') {
+      this.newArr = input.split('');
+    } else {
+      this.newArr = [...input];
+    }
+    this.newArr.forEach((i) => {
+      if (!this.has(i)) {
+        this.collection.push(i);
+      }
+    });
   }
 
   has = (item) => {
@@ -81,6 +92,9 @@ class mySet {
     });
   };
 }
+
+/* const rag1 = new mySet('ADWA');
+const rag2 = new mySet([1, 2, 3, 4, 1, 3]); */
 
 var setA = new mySet();
 setA.add(9);
