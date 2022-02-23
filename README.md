@@ -1,6 +1,6 @@
 # Basic DSA in JS
 
-The project focuses on creating implementing some data structures using Javascript.
+The project focuses on implementing basic data structures & algorithms using Javascript.
 
 ## Description
 
