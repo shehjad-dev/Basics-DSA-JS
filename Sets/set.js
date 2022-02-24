@@ -14,6 +14,13 @@ class mySet {
     });
   }
 
+  isEmpty = () => {
+    if (this.collection.length !== 0) {
+      return false;
+    }
+    return true;
+  };
+
   has = (item) => {
     //console.log(this.collection.indexOf(item) !== -1);
     return this.collection.indexOf(item) !== -1;
