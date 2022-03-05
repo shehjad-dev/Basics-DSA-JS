@@ -1,0 +1,7 @@
+A priority queue is a a queue but it holds items with priority. 
+
+Basically its an array of arrays containing element and priority number.
+
+All of it's functionas are same as queues other than the enqueue function.
+
+The lesser the priority number the faster the item gets dequeued.

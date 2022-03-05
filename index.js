@@ -31,14 +31,32 @@ class Queue {
   };
 }
 
-var q = new Queue();
-console.log(q.isEmpty());
-q.enqueue('a');
-q.enqueue('b');
-q.enqueue('c');
-q.print();
-console.log(q.dequeue());
-console.log(q.front());
-q.print();
-console.log(q.size());
-console.log(q.isEmpty());
+class PriorityQueue extends Queue {
+  enqueue = (item) => {
+    if (this.collection.length === 0) {
+      this.collection.push(item);
+    } else {
+      let added = false;
+      for (let i = 0; i < this.collection.length; i++) {
+        if (item[1] < this.collection[i][1]) {
+          this.collection.splice(i, 0, item);
+          added = true;
+          break;
+        }
+      }
+      if (!added) {
+        this.collection.push(item);
+      }
+    }
+  };
+}
+
+var pq = new PriorityQueue();
+pq.enqueue(['Beau Carnes', 2]);
+pq.enqueue(['Quincy Larson', 3]);
+pq.enqueue(['Ewa Mitulska-Wójcik', 1]);
+pq.enqueue(['Briana Swift', 2]);
+pq.print();
+pq.dequeue();
+console.log(pq.front());
+pq.print();
