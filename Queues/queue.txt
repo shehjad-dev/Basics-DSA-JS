@@ -1,0 +1,17 @@
+A queue is a data structure that can store any number of values. 
+
+Queue follows FIFO(First In First Out) principle. Just like a queue in a ticket counter.
+
+List Of Operations Available ON Queue:
+
+-- enqueue: Insert an element in the queue.
+-- dequeue: Remove the element that entered the queue earlier than 
+            the other items from the queue.
+-- front : Return the first element.
+-- size: Return Size of the queue.
+-- isEmpty : Check if the queue is empty if empty return true else false.
+-- print: logs the items of the queue.
+-- Intersection: Return new Set which contains the intersecting element from two sets.
+-- Difference: Return new Set only containing the elements which are not present in     
+   other sets.
+-- isSubset: Return true if all elements are present in the given otherSet.
