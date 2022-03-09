@@ -1,1 +1,1 @@
-// Here goes the quesiton for queue example
+// Implement a queue using stacks.
