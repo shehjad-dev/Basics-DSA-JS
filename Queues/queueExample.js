@@ -1,5 +1,6 @@
 // Implement a queue using stacks.
-// We are using 2 stacks to implement a queue
+// We are using our custom stacks to implement a queue
+// Total stacks used = 2
 
 class stack {
   constructor() {
