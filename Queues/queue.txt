@@ -1,6 +1,6 @@
 A queue is a data structure that can store any number of values. 
 
-Queue follows FIFO(First In First Out) principle. Just like a queue in a ticket counter.
+Here, Queue follows FIFO(First In First Out) principle. Just like a queue of people standing in a ticket counter.
 
 List Of Operations Available ON Queue:
 
