@@ -16,5 +16,5 @@ The dsExample.js has a problem example solved using the particular Data Structur
 
 ## To Run & Check
 
-- Copy code from .js and paste it in index.js.
+- Copy code from .js and paste it inside index.js file.
 - Run the file by typing this command- "node index" in the terminal
